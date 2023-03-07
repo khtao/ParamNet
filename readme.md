@@ -161,7 +161,7 @@ plt.show()
 ```python
 #read source image
 img_C1=Image.open("asserts/C1-C5/source_C1.png")
-img_C2=Image.open("asserts/C1-C5/source_C1.png")
+img_C2=Image.open("asserts/C1-C5/source_C2.png")
 img_C3=Image.open("asserts/C1-C5/source_C3.png")
 img_C4=Image.open("asserts/C1-C5/source_C4.png")
 img_C5=Image.open("asserts/C1-C5/source_C5.png")
