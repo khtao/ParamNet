@@ -1,4 +1,8 @@
-## This is a demo for our paper "ParamNet: a parameter-variable network for fast stain normalization"
+## This is a demo for our paper "ParamNet: a parameter-variable network for fast stain normalization" 
+
+
+
+![fig1](./assets/fig1.png)
 
 
 ```python
@@ -32,10 +36,10 @@ def un_norm(image):
 
 ```python
 #read source image
-img_source_cyp=Image.open("asserts/aligned/aligned_cyp_source.png")
-img_target_cyp=Image.open("asserts/aligned/aligned_cyp_target.png")
-img_source_hist=Image.open("asserts/aligned/aligned_hist_source.png")
-img_target_hist=Image.open("asserts/aligned/aligned_hist_target.png")
+img_source_cyp=Image.open("assets/aligned/aligned_cyp_source.png")
+img_target_cyp=Image.open("assets/aligned/aligned_cyp_target.png")
+img_source_hist=Image.open("assets/aligned/aligned_hist_source.png")
+img_target_hist=Image.open("assets/aligned/aligned_hist_target.png")
 ```
 
 
@@ -84,15 +88,15 @@ plt.show()
 
 ```python
 #read source image
-img_D2=Image.open("asserts/D2-D5/ori_D2.png")
-img_D3=Image.open("asserts/D2-D5/ori_D3.png")
-img_D4=Image.open("asserts/D2-D5/ori_D4.png")
-img_D5=Image.open("asserts/D2-D5/ori_D5.png")
+img_D2=Image.open("assets/D2-D5/ori_D2.png")
+img_D3=Image.open("assets/D2-D5/ori_D3.png")
+img_D4=Image.open("assets/D2-D5/ori_D4.png")
+img_D5=Image.open("assets/D2-D5/ori_D5.png")
 
-img_D1_1=Image.open("asserts/D1/1.png")
-img_D1_2=Image.open("asserts/D1/2.png")
-img_D1_3=Image.open("asserts/D1/3.png")
-img_D1_4=Image.open("asserts/D1/4.png")
+img_D1_1=Image.open("assets/D1/1.png")
+img_D1_2=Image.open("assets/D1/2.png")
+img_D1_3=Image.open("assets/D1/3.png")
+img_D1_4=Image.open("assets/D1/4.png")
 ```
 
 
@@ -160,17 +164,17 @@ plt.show()
 
 ```python
 #read source image
-img_C1=Image.open("asserts/C1-C5/source_C1.png")
-img_C2=Image.open("asserts/C1-C5/source_C2.png")
-img_C3=Image.open("asserts/C1-C5/source_C3.png")
-img_C4=Image.open("asserts/C1-C5/source_C4.png")
-img_C5=Image.open("asserts/C1-C5/source_C5.png")
+img_C1=Image.open("assets/C1-C5/source_C1.png")
+img_C2=Image.open("assets/C1-C5/source_C2.png")
+img_C3=Image.open("assets/C1-C5/source_C3.png")
+img_C4=Image.open("assets/C1-C5/source_C4.png")
+img_C5=Image.open("assets/C1-C5/source_C5.png")
 
-img_Uni16_1=Image.open("asserts/Uni16/Uni_1.png")
-img_Uni16_2=Image.open("asserts/Uni16/Uni_2.png")
-img_Uni16_3=Image.open("asserts/Uni16/Uni_3.png")
-img_Uni16_4=Image.open("asserts/Uni16/Uni_4.png")
-img_Uni16_5=Image.open("asserts/Uni16/Uni_5.png")
+img_Uni16_1=Image.open("assets/Uni16/Uni_1.png")
+img_Uni16_2=Image.open("assets/Uni16/Uni_2.png")
+img_Uni16_3=Image.open("assets/Uni16/Uni_3.png")
+img_Uni16_4=Image.open("assets/Uni16/Uni_4.png")
+img_Uni16_5=Image.open("assets/Uni16/Uni_5.png")
 ```
 
 
@@ -243,8 +247,3 @@ plt.show()
 ![png](output_15_0.png)
 ​    
 
-
-
-```python
-
-```
