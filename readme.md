@@ -1,5 +1,5 @@
 ## This is a demo for our paper [ParamNet: a parameter-variable network for fast stain normalization](https://arxiv.org/abs/2305.06511)
-### [https://arxiv.org/pdf/2305.06511.pdf](https://arxiv.org/abs/2305.06511)
+### https://arxiv.org/abs/2305.06511
 
 
 ![fig1](./assets/fig1.png)
